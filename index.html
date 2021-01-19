@@ -8,14 +8,14 @@
   <body>
     <div id="div_nom">
       <label for="nom">Nom:</label>
-      <input type="text" id="nom" name="nom" size="10">
+      <input type="text" id="nom" onkeyup="FilterName()" name="nom" size="10">
     </div>
     <br>
     <div id="div_prenom">
       <label for="prenom">Prénom:</label>
-      <input type="text" id="prenom" name="prenom" size="10">
+      <input type="text" id="prenom" onkeyup="FilterLastName()" name="prenom" size="10">
     </div>
-    <table>
+    <table id="myTable">
       <tr>
         <th>Nom</th>
         <th>Prénom</th>
@@ -41,3 +41,4 @@
     </table>
   </body>
 </html>
+<script type="text/javascript" src="home.js"></script>
