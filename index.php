@@ -27,7 +27,7 @@ if (isset($_REQUEST['nom'], $_REQUEST['prenom'], $_REQUEST['datenaiss'],$_REQUES
 
     if($res){
        echo "<div class='sucess'>
-             <h3>Le client a étéajoutée avec succés.</h3>
+             <h3>Le client a été ajoutée avec succés.</h3>
              <p>Cliquez <a href='index.php'>ici</a> pour retourner à la page d'accueil</p>
 			 </div>";
     }
